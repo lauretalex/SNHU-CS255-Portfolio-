@@ -1,3 +1,16 @@
-# SNHU-CS255-Portfolio-
+# SNHU-CS255-Portfolio
 
 # Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+The client was DriverPass, a company specialized in educational and driving service. Their goal was to address high failure rates in state licensing exams by offering an extensive driver preparation program for new drivers. The client wanted a design around a centralized, cloud-hosted web platform that would allow students to purchase driving packages, access study online materials, complete practice tests, and book in-person, two-hour driving lessons. The client also wanted the system to support administrative tools for secretaries, instructors and administrators in order to better manage the system. 
+
+# What did you do particularly well?
+One of my strengths in this project was breaking down multi-role business requirements into smaller sets of structured models. A model included was a lesson booking workflow diagram. This diagram showcased business requirements such as driving package balance verification, driver and vehicle assignments, and system logging. There is also another diagram that showcases user interactions across distinct roles such as students, office staff, instructors, administrators, and payment gateways. These diagrams represented the client's daily operational workflow. 
+
+# If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+One aspect of my work that I would revise is my Business Requirements Document. I think that some of the requirements I wrote initially were written too broadly, such as simply stating that users can book appointments. An improvement from this would be adding more details for each task like verifying remaining lesson hours, assigning a car and driver, and preventing double-booking to make the requirements clearer.
+
+# How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+The user’s needs were found out by evaluating an interview transcript and breaking it down into distinct tasks, design constraints and roles and permissions involved. These findings were implemented through visual diagrams that showcased data relationships and system logic Prioritizing user needs is important during the design phase as it prevents costly rework, ensures that the final product is accurate to operational needs and provides a good experience for all user groups involved with interacting with the platform.
+
+# How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+My approach designing software would be to first understand the user’s needs before even starting. Similar to what was done with the DriverPass project, I would first gather basic requirements from the client, figure out who will use it, and create simple diagrams to show how each task works step by step. A combined approach of activity diagrams and sequence diagrams would really help showcase a system behavior than one or the other. For the future, a repetitive system where each submission represents new changes that are closer to the goals required to make sure the design is on track before doing detailed technical work.
